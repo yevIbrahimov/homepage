@@ -15,6 +15,12 @@ a{
 body{
     font-weight: bold;
 }
+.details{
+    display: flex;
+    font-size: large;
+    padding-left: 1em;
+    align-items: baseline;
+}
 .trophy{
     width: 90%;
     height: 70%;
