@@ -1,0 +1,24 @@
+a{
+    display: flex;
+}
+.avatar{
+    padding-top: 4em;
+}
+.back-page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+body{
+    font-weight: bold;
+}
+.trophy{
+    width: 80%;
+    height: 60%;
+}
+.trophy:hover{
+    cursor: pointer;
+}
