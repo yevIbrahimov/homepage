@@ -14,8 +14,9 @@ a{
     height: 100%;
     opacity: 0.2;
 }
-body{
+.info {
     font-weight: bold;
+    font-size: 15px;
 }
 .details{
     font-size: 20px;
@@ -30,4 +31,16 @@ body{
 }
 .contacts{
     flex-direction: column;
+}
+.name{
+    font-size:3em;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+.job{
+    font-size:2em;
+    font-weight:400;
+}
+.list{
+    font-size: 20px;
 }
