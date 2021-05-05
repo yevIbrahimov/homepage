@@ -1,0 +1,50 @@
+a{
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.avatar{
+    padding-top: 4em;
+}
+.back-page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+.info {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    font-weight: bold;
+    font-size: 17px;
+}
+.details{
+    font-size: 20px;
+    padding-left: 0;
+} 
+.trophy{
+    padding-top: 10em;
+    width: 90%;
+    height: 70%;
+}
+.trophy:hover{
+    cursor: pointer;
+}
+.contacts{
+    flex-direction: column;
+}
+.name{
+    font-size:3em;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+.job{
+    font-size:2em;
+    font-weight:400;
+}
+.list{
+    font-size: 20px;
+}
+
