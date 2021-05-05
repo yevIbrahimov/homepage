@@ -95,7 +95,14 @@
                 </ul>
               </section>
               <section>
-                <img src="https://www.pngarts.com/files/5/UEFA-Champions-League-Trophy-PNG-Image.png" class="trophy">
+                <script>
+                  function anthem(event){
+                     var audio = new Audio();
+                     audio.src = 'anthem.mp3';
+                     audio.autoplay=true;
+                  }
+                </script>
+                <img onclick="anthem(event)" src="https://www.pngarts.com/files/5/UEFA-Champions-League-Trophy-PNG-Image.png" class="trophy">
               </section>
               </div>
             </div>
