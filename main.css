@@ -33,7 +33,8 @@ a{
     cursor: pointer;
 }
 .contacts{
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 .name{
     font-size:3em;
