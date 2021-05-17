@@ -3,9 +3,11 @@ a{
     padding-bottom: 15px;
     padding-top: 15px;
 }
+
 .avatar{
     padding-top: 4em;
 }
+
 .back-page{
     position: absolute;
     left: 0;
@@ -14,38 +16,105 @@ a{
     height: 100%;
     opacity: 0.2;
 }
+
 .info {
     display: grid;
     grid-template-columns: 4fr 2fr;
     font-weight: bold;
     font-size: 17px;
 }
+
 .details{
     font-size: 20px;
     padding-left: 0;
 } 
+
 .trophy{
     padding-top: 10em;
     width: 90%;
     height: 70%;
 }
+
 .trophy:hover{
     cursor: pointer;
 }
+
 .contacts{
     flex-direction: row;
     align-items: center;
 }
+
 .name{
     font-size:3em;
     font-weight: bold;
     margin-bottom: -1px;
 }
+
 .job{
     font-size:2em;
     font-weight:400;
 }
+
 .list{
     font-size: 20px;
 }
 
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+    article {
+      width: 723px;
+      margin-top: calc((100% - 723px) / 2);
+      margin-bottom: calc((100% - 723px) / 2);
+    }
+  
+    .divider{
+        width: 42em !important;           
+    }
+
+    .row{
+        flex-direction: column !important;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avatar{
+        width: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    article {
+      width: 933px;
+      margin-top: calc((100% - 933px) / 2);
+      margin-bottom: calc((100% - 933px) / 2);
+    }
+
+    .avatar{
+        width: auto;
+    }
+
+    .row{
+        flex-direction: column !important;
+    }
+  
+    .divider{
+        width: 58em !important;           
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    article {
+      width: 1127px;
+      margin-top: calc((100% - 1127px) / 2);
+      margin-bottom: calc((100% - 1127px) / 2);
+    }
+
+
+  }
